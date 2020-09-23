@@ -1,38 +1,48 @@
-.App {
+.App{
+  height: 200vh;
+  
+}
+
+html{
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.navbar{
+  z-index: 500;
+  padding-bottom: 8vh;
+}
+
+.parallax{
+  background-image: url('./ShopPhoto3.jpg');
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.parallax-text{
   text-align: center;
+  padding: 250px 0;
+  color: White;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  font-size: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about{
+  text-align: center;
+  left: 50%;
+  padding: 5%;
+  color: black;
+  text-align: center;
+  padding-top: 3%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
