@@ -1,6 +1,6 @@
 .App{
-  height: 200vh;
-  
+  margin: 0%;
+  padding: 0%;
 }
 
 html{
@@ -15,7 +15,7 @@ html{
 }
 
 .parallax{
-  background-image: url('./ShopPhoto3.jpg');
+  background-image: url('./ShopPhoto.jpg');
   height: 700px;
   background-attachment: fixed;
   background-position: center;
@@ -35,14 +35,56 @@ html{
 
 .heading{
   text-decoration: underline;
+  padding: 2%;
+}
+
+.info{
+  text-align: center;
+  left: 50%;
+  padding: 2%;
+  color: black;
+  background-color: whitesmoke;
 }
 
 .about{
+  left: 25%;
   text-align: center;
-  left: 50%;
-  padding: 5%;
-  color: black;
-  text-align: center;
-  padding-top: 3%;
+  padding-bottom: 5%;
 }
 
+.opening-hours{
+  float: left;
+  width: 50%;
+  border-right: 1px solid #414141;
+}
+
+.hours-table{
+  padding: 5%;
+  width: 100%;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.hours-table th{
+  padding: 2%;
+}
+
+.col2{
+  text-align: right;
+}
+
+.location{
+  float: right;
+  width: 50%;
+}
+
+.split:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact{
+  width: 100%;
+}
